@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Intro</title>
+</head>
+<body>
+
+    <!-- Changing text of a paragraph -->
+    <p id="element">This is paragraph</p>
+    <button onclick="txtChange()">Change The text</button>
+    <script>
+        function txtChange(){
+            document.getElementById('element').innerHTML='Text Changed';
+        }
+    </script>
+
+    <!-- Writing into an empty element -->
+    <p id="emptyElement"></p>
+    <script>
+        // without onclick function:
+        document.getElementById('emptyElement').innerHTML='Text Inserted to an empty element using JS';
+    </script>
+
+    <!-- Changing color i.e CSS of a paragraph -->
+    <p id="para2">hi</p>
+    <script>
+        var para = document.getElementById('para2').style.color='red';
+    </script>
+</body>
+</html>
