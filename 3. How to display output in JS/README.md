@@ -64,5 +64,4 @@ Print object or method is not used to display output in JavaScript. It is used t
 		print();
 	}
 </script>
-```
------------------------------------ Happy coding :innocent: --------------------------------------------
+---- Happy coding :innocent: ----
