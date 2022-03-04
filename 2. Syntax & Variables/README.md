@@ -5,7 +5,7 @@ var x = 5; // x is a variable declared with **var** keyword and it stores the va
 let y = 2; // y is a variable declared with **let** keyword and it stores the value 2. 
 ```
 --> Before moving any further, there are a few key terms associated with variables that you must understand. These are:
-## 1. Variable Declaration
+### 1. Variable Declaration
 Creating a variable in JavaScript is called **Declaring** a variable. Declaration tells the compiler about the existence of an entity in the program and its location. 
 ```
 var name;
